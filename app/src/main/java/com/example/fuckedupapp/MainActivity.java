@@ -3,6 +3,7 @@ package com.example.fuckedupapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 String s = textView.getText().toString();
 
                 Toast.makeText(MainActivity.this, "Message: " + s, Toast.LENGTH_SHORT).show();
+                Log.e("error: " , "text error");
+                Log.d("log", "new log");
+
             }
         });
 
