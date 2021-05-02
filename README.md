@@ -1,2 +1,2 @@
 # Android-Projects
-Trying something interesting 😏
+Trying to build something useless 😏
