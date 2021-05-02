@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("error: " , "text error");
                 Log.d("log", "new log");
 
+                Toast.makeText(MainActivity.this, "another toast", Toast.LENGTH_SHORT).show();
+
             }
         });
 
