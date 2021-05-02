@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Message: " + s, Toast.LENGTH_SHORT).show();
 
                 Log.e("error: " , "text error");
-                Log.d("log", "new log");
-
                 Toast.makeText(MainActivity.this, "another toast", Toast.LENGTH_SHORT).show();
+
+                System.out.println("sdfj");
 
             }
         });
