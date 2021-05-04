@@ -11,38 +11,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
-
-    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.button);
-        textView = findViewById(R.id.textView);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String s = textView.getText().toString();
-
-                Toast.makeText(MainActivity.this, "Message: " + s, Toast.LENGTH_SHORT).show();
-
-                Log.e("error: " , "text error");
-                Toast.makeText(MainActivity.this, "another toast", Toast.LENGTH_SHORT).show();
-
-                System.out.println("sdfj");
-
-
-                System.out.println("new line added to test branch");
-
-                System.out.println("lsdfjlkg");
-
-
-            }
-        });
 
 
     }
